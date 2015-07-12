@@ -6,9 +6,11 @@
 
 A gateway to Yammer acts as Slack incoming webhook.
 
-## Setup
+## Usage
 
-Set ```YAMMER_ACCESS_TOKEN``` ENV.
+1. Set ```YAMMER_ACCESS_TOKEN``` ENV.
+2. Run this app
+3. Sse ```http://your.host/services/{Yammer group_id}``` instead of Slack URL
 
 ### How to get Yammer group_id
 
