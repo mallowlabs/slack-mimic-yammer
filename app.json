@@ -1,0 +1,13 @@
+{
+  "name": "slack-mimic-yammer",
+  "description": "A gateway to Yammer acts as Slack incoming webhook",
+  "repository": "https://github.com/mallowlabs/slack-mimic-yammer/",
+  "env": {
+    "YAMMER_ACCESS_TOKEN": {
+      "description": "Yammer Access Token",
+      "value": "",
+      "required": true
+    }
+  }
+}
+
